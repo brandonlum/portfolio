@@ -1,0 +1,71 @@
+/* * {
+  border: 1px solid gold;
+} */
+
+
+html {
+  text-align: center;
+  scroll-behavior: smooth;
+  font-family: Permanent Marker;
+}
+
+li {
+  margin: auto;
+}
+
+a {
+  color: black;
+}
+
+.route-links-container {
+  width: 30%;
+}
+
+.route-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scroll-link {
+  color: black;
+}
+
+.scroll-link:hover {
+  color: black;
+  text-decoration-line: underline;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.tech-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-card {
+  margin: 0 auto;
+  padding: 5;
+  min-height: 150px;
+  min-width: 30%;
+  text-align: center;
+  justify-content: center;
+  transition: all .2s ease-in-out;
+}
+
+.work-card:hover {
+  transform: scale(1.1);
+}
