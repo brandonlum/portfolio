@@ -51,12 +51,12 @@ a {
   height: 100px;
 }
 
-.work-container {
+.project-container {
   display: flex;
   justify-content: space-between;
 }
 
-.work-card {
+.project-card {
   margin: 0 auto;
   padding: 5;
   min-height: 150px;
@@ -66,6 +66,17 @@ a {
   transition: all .2s ease-in-out;
 }
 
-.work-card:hover {
+.project-card:hover {
   transform: scale(1.1);
+}
+
+
+#fitfriendster-card {
+  background-image: url('../images/icons/FitFriendster-Icon.png');
+  background-size: cover;
+}
+
+#trackstat-card {
+  background-image: url('../images/icons/ScoreTracker-Icon.png');
+  background-size: cover;
 }
